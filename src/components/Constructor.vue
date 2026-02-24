@@ -25,7 +25,7 @@ const props = defineProps({
 });
 
 // 🎯 STEP 2: Customize your survey configuration
-const pageTitle = ref('BAILLEUIL'); // Browser tab title
+const pageTitle = ref('BAILLEUL'); // Browser tab title
 // Ensure posteTravailQuestionId is defined for the template
 const posteTravailQuestionId = 'POSTE'; // 🎯 Change this if your work station question has a different ID
 const customWelcomeMessage = ref(`Bonjour<br><br> pour mieux connaître les usagers de la gare de Bailleuil,<br><br> la SNCF souhaiterait en savoir plus sur votre déplacement en cours.<br><br> Auriez-vous quelques secondes à nous accorder ? `); // HTML welcome message
